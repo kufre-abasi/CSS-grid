@@ -1,0 +1,174 @@
+* {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+ /*nav bar start*/
+
+
+.nav-bar{
+    background-color: black;
+    padding:25px !important;
+    font-size: 20px;
+    
+}
+ul li{
+    padding-left:200px !important ;
+    color: white;
+    display: inline;
+    gap: 100px;
+}
+
+
+
+/*nav bar ends*/
+
+/*hero-section start*/
+.hero-section {
+    background-image: url(../images/c.jpg);;
+    height: 500px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    padding-top: 100px !important;
+    display: grid;
+    grid-template-columns: 600px auto;
+    grid-gap: 80px;
+}
+.hero-section h1 {
+    color: #fff;
+}
+.grid-item1 {
+    justify-self: end; /*When using a flex or grid, its used to align items or self or content of a div. 
+    In this case, we are trying to align the div*/
+    padding-top: 150px !important;
+}
+/*hero section ends*/
+
+/*form section start*/
+
+.form{
+    width: 290px;
+    height: 400px;
+    background: #f34703;
+    display:grid;
+    grid-template-rows:80px 40px 40px 40px 86px 50px;
+    gap:4px;
+    text-align: center;
+}
+.name{
+    width:255px;
+} 
+.email{
+    width: 255px;
+}  
+.address{
+    width: 255px;
+} 
+.column{
+    grid-gap:6px;
+    display:grid;
+    grid-template-columns: 125px 125px ;
+    justify-content: center;
+}
+.btn{
+    background: #131212;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 0px;
+    color: white;
+}
+.form input[type=text], .form input[type=email]{
+    border: none;
+    border-radius: 0px;
+    height: 38px;
+    
+}
+/*form ends*/
+
+
+
+/*Styling for Grid div areas */
+.con{
+    display: grid;
+    grid-template-rows: auto auto;
+    padding-top: 10px;
+}
+.con1{
+    text-align: center;
+}
+.con1 h2{
+    color: red;
+}
+.grid-container2a {
+    margin-top: 30px !important;
+    display: grid;
+    grid-template-columns:  20fr 20fr 20fr 20fr 20fr ; /*Fr is used in place of % in grid to divide it into fractions*/
+    grid-gap: 50px;
+}
+
+/* Styling for Dark Area  */
+.dark-area {
+    background: #000608;
+    height: 300px;
+    text-align: center;
+
+}
+
+/* Styling for grid container 2 */
+.grid-container2 {
+    margin-top: 50px !important;
+    display: grid;
+    grid-template-columns: 20fr 30fr 30fr 20fr;
+}
+.dark-area h1 {
+    color: #f34703;
+}
+.dark-area p {
+    color: white;
+}
+span {
+    color: #f34703;
+    
+
+}
+/*testimonal starts */
+
+.Testimonal{
+    text-align: center;
+    padding-top: 30px;
+    background-color: #f34703;
+    color: #fff;
+    border-color: #fff;
+    
+}
+.testimonal-container{
+    margin-top: 30px !important;
+    display: grid;
+    grid-template-columns:  20fr 20fr 20fr 20fr 20fr ; 
+    grid-gap: 40px;
+    border-color: #fff;
+
+}
+.testimonal-item {
+    text-align: left;
+}
+#tt{
+    width: 30px;
+    height: 30px;
+}
+/*testimonal ends*/
+
+.copyright{
+    background-color: black;
+    color: white;
+    height: 60%;
+    text-align: center;
+    padding-top:100px;
+}
+.learn-button{
+    color: black;
+    border-color: white;
+    height: 50px;
+    width: 150px;
+    padding-top:15px;
+}
